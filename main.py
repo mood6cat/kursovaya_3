@@ -1,4 +1,4 @@
-from utills.apelsin import load_loaded_files, filter_data, sort_data, format_data
+from utills.utills import load_loaded_files, filter_data, sort_data, format_data
 
 def main():
     data = load_loaded_files() # get data from files

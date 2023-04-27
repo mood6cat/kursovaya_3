@@ -79,7 +79,7 @@ Visa Platinum 7000 79** **** 6361 -> Счет **9638
         else:
             sen_i = 'Новый счёт:'
             sen_b = ''
-            from_arrow = "->"
+            from_arrow = ""
             sender_to = value["to"].split()
             sen_b_to = sender_to.pop(-1)
             sen_i_to = ' '.join(sender_to)
