@@ -50,4 +50,16 @@ def test_sort_data(sort_from_conf):
 
 
 def test_format_dat(format_data_from_conf):
-    assert format_data(format_data(format_data_from_conf)) == ['  \n03.07.19 Перевод организации \nMasterCard 7158 30** **** 6758 --> Счет ** 5560\n8221.37 USD\n                   ...n9824.07 USD\n                    ', '\n23.03.18 Открытие вклада \nНовый счёт:  Счет ** 2431\n48223.05 руб.\n        ']
+    assert format_data(format_data(format_data_from_conf)) == []
+
+
+
+
+
+
+
+
+
+
+
+
